@@ -61,6 +61,7 @@ function App() {
           <p><span className='font-medium text-slate-700' >Country:</span> {selectedAddress?.value?.address?.countryName}</p>
           <p><span className='font-medium text-slate-700' >State:</span> {selectedAddress?.value?.address?.state}</p>
           <p><span className='font-medium text-slate-700' >City:</span> {selectedAddress?.value?.address?.city}</p>
+          <p><span className='font-medium text-slate-700' >Postal Code:</span> {selectedAddress?.value?.address?.postalCode}</p>
           <p><span className='font-medium text-slate-700' >Street:</span> {selectedAddress?.value?.address?.street}</p>
           <p><span className='font-medium text-slate-700' >Lat:</span> {selectedAddress?.value?.position?.lat}</p>
           <p><span className='font-medium text-slate-700' >Lng:</span> {selectedAddress?.value?.position?.lng}</p>
